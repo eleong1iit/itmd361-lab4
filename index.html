@@ -11,8 +11,39 @@
 	<form>
 	  <fieldset>
 	    <legend><strong>My Info</strong></legend>
-		<label for="first_name">First Name:</label>
-		<input type="text" name="name" id="first_name"></input>
+		<div>
+		  <input type="text" name="first_name_field" id="first_name"></input>
+		  <label for="first_name">First Name:</label>
+		</div>
+		<div>
+		  <input type="text" name="last_name_field" id="last_name"></input>
+		  <label for="last_name">Last Name:</label>
+		</div>
+		<div>
+		  <input type="tel" name="phone_field" id="phone"></input>
+		  <label for="phone">Phone Number:</label>
+		</div>
+		<div>
+		  <input type="email" name="email_field" id="email"></input>
+		  <label for="email">Email Address:</label>
+		</div>
+		<div id="gender">
+		  <input type="radio" name="gender_field" value="male" id="male"></input>
+		  <label for="male">Male</label>
+		  <input type="radio" name="gender_field" value="female" id="female"></input>
+		  <label for="female">Female</label>
+		</div>
+		<label for="gender">Gender:</label>
+		<select name="age_field" id="age">
+		  <option>under 18</option>
+		  <option>18 - 24</option>
+		  <option>25 - 34</option>
+		  <option>35 - 44</option>
+		  <option>45 - 54</option>
+		  <option>55 - 64</option>
+		  <option>65 and over</option>
+		</select>
+		<label for="age">Age:</label>
 	  </fieldset>
 	</form>
   </body>
