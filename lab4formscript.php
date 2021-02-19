@@ -40,7 +40,7 @@
 	  <p><strong>Age:</strong> <?php echo htmlentities($age) ?></p>
 	</div>
 	<div class="box">
-	  <h2>This section contains the information provided in the availibility section:</h2>
+	  <h2>This section contains the information provided in the availability section:</h2>
 	  <h3>Days Selected as Available:</h3>
 	  <?php
 	    if(is_array($available)){
