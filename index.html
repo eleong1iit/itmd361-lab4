@@ -46,8 +46,29 @@
 		</select>
 	  </fieldset>
 	  <fieldset>
-	    
+	    <legend><strong>My Availability</strong></legend>
+		<label for="available">Days Available:</label>
+		<div id="available">
+		  <input type="checkbox" name="available_field[]" value="Sunday" id="sunday"></input>
+		  <label for="sunday">Sunday</label>
+		  <input type="checkbox" name="available_field[]" value="Monday" id="monday"></input>
+		  <label for="monday">Monday</label>
+		  <input type="checkbox" name="available_field[]" value="Tuesday" id="tuesday"></input>
+		  <label for="tuesday">Tuesday</label>
+		  <input type="checkbox" name="available_field[]" value="Wednesday" id="wednesday"></input>
+		  <label for="wednesday">Wednesday</label>
+		  <input type="checkbox" name="available_field[]" value="Thursday" id="thursday"></input>
+		  <label for="thursday">Thursday</label>
+		  <input type="checkbox" name="available_field[]" value="Friday" id="friday"></input>
+		  <label for="friday">Friday</label>
+		  <input type="checkbox" name="available_field[]" value="Saturday" id="saturday"></input>
+		  <label for="saturday">Saturday</label>
+		</div>
+		<label for="comments">Any Comments?</label>
+		<textarea name="comments_field" id="comments" placeholder="Comments..."></textarea>
 	  </fieldset>
+	  <input type="hidden" name="hidden_field" value="eleong1@hawk.iit.edu"></input>
+	  <input type="submit" value="Send Me">
 	</form>
   </body>
 </html>
